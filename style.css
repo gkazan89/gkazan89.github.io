@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+.container {
+  color: white;
+  margin-top: 2rem;
+
+}
+
+.initials, .content{
+  text-align: center;
+}
+
+.nes-container.is-rounded.is-dark {
+  margin-top: 15rem;
+}
+
+#flexo, #projects {
+  display: flex;
+}
+
+.third {
+  float: left;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.project {
+  margin-top: 1.5rem;
+}
+
+.flashing {
+  margin-top: 5rem;
+  animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0
+  }
+}
