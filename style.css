@@ -35,6 +35,12 @@ body {
   animation: blinker 0.5s linear infinite;
 }
 
+img {
+  height: 9rem;
+  width: 9rem;
+  margin-top: 1rem;
+}
+
 @keyframes blinker {
   50% {
     opacity: 0
